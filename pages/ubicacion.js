@@ -17,7 +17,11 @@ export default function ubicacion() {
                     allowFullScreen="" 
                     loading="lazy" />
                 </div>
-                <button className="custom-btn my-2">Ir al mapa</button>
+                <button className="custom-btn my-3">
+                    <Link href="https://goo.gl/maps/hdU1iRYTq9FXno7g9">
+                        <a className="text-light text-decoration-none">Ir al mapa</a>
+                    </Link>
+                </button>
             </section>       
         </Layout>
     )
