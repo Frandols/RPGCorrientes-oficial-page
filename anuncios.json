@@ -1,0 +1,9 @@
+[
+    {
+        "id": 0,
+        "title": "Este es un anuncio de ejemplo.",
+        "image": "ejemplo.jpeg",
+        "description": "Esta es una descripcion de ejemplo.",
+        "date": "14/07/2021"
+    }
+]
