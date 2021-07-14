@@ -74,14 +74,14 @@ nav{
     transform: scale(0.6);
 }
 .background{
-    height: 100%;
+    height: calc(100% + 56px);
     width: 100%;
     position: absolute;
     overflow: hidden;
 }
 .background img{
     width: 100vw;
-    height: calc(100% + 56px);
+    height: 100%;
     object-fit: cover;
     opacity: .4;
 }
