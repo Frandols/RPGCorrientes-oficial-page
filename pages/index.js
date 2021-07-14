@@ -32,7 +32,7 @@ export default function index() {
                     <h1 className="fw-bold text-light display-1 text-center animate__animated animate__backInDown">RPG CORRIENTES</h1>
                     <h3 className="fw-bold text-center text-light">Matías Nicolás Erro y María Belén Koster</h3>
                     <h5 className="text-light">¡Conocé más!</h5>
-                    <i onClick={() => { window.scroll(0, height) }} className="fas fa-2x fa-arrow-alt-circle-down text-light"></i>
+                    <i onClick={() => { window.scroll(0, height - 56) }} className="fas fa-2x fa-arrow-alt-circle-down text-light"></i>
                 </div>
             </main>
             <section className="d-flex justify-content-center align-items-center text-center">
