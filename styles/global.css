@@ -74,7 +74,7 @@ nav{
     transform: scale(0.6);
 }
 .background{
-    height: calc(100% + 56px);
+    height: 100%;
     width: 100%;
     position: absolute;
     overflow: hidden;
