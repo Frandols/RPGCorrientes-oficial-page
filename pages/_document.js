@@ -12,6 +12,7 @@ class MyDocument extends Document {
         <Head>
             <title>RPG Corrientes</title>
             <meta charSet="utf-8" />
+            <link rel="icon" href="favicon.ico" sizes="32x32"/>
             <meta name="title" content="RPG Corrientes" />
             <meta name="subject" content="RPG Corrientes" />
             <meta name="language" content="spanish" />
