@@ -9,8 +9,6 @@ export default function index() {
     const [image, setImage] = useState('');
     useEffect(() => {
         imagesHandler(0);
-    }, []);
-    useEffect(() => {
         setHeight(window.innerHeight);
         window.onresize = () => {
             setHeight(window.innerHeight);
@@ -20,7 +18,7 @@ export default function index() {
         setImage(`home${counter + 1}.jpeg`);
         setTimeout(() => {
             counter === 2 ? imagesHandler(0) : imagesHandler(counter + 1); 
-        }, 5000);
+        }, 10000);
     }
     return (
         <Layout isHomePage={true}>
