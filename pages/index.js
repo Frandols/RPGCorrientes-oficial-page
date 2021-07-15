@@ -25,9 +25,7 @@ export default function index() {
     return (
         <Layout isHomePage={true}>
             <main className="d-flex justify-content-center align-items-center">
-                <div className="background d-flex justify-content-center align-items-center">
-                    <img src={image} alt="Kinesiologia - Kinesiologia imagenes"/>
-                </div>
+                <img src={image} className="background" alt="Kinesiologia - Kinesiologia imagenes"/>
                 <div className="center d-flex flex-column justify-content-center align-items-center">
                     <h1 className="fw-bold text-light display-1 text-center">RPG CORRIENTES</h1>
                     <h3 className="fw-bold text-center text-light">Matías Nicolás Erro y María Belén Koster</h3>
