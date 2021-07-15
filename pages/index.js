@@ -17,14 +17,14 @@ export default function index() {
         }
     }, [])
     const imagesHandler = (counter) => {
-        setImage(`home${counter + 1}.jpeg`);
+        setImage(`home${counter + 1}.jpg`);
         setTimeout(() => {
             counter === 2 ? imagesHandler(0) : imagesHandler(counter + 1); 
         }, 5000);
     }
     return (
         <Layout isHomePage={true}>
-            <main className="d-flex justify-content-center align-items-center">
+            <main className="d-flex justify-content-center align-items-center" style={{backgroundImage: `url(${image})`}}>
                 <div className="center d-flex flex-column justify-content-center align-items-center">
                     <h1 className="fw-bold text-light display-1 text-center">RPG CORRIENTES</h1>
                     <h3 className="fw-bold text-center text-light">Matías Nicolás Erro y María Belén Koster</h3>
