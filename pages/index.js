@@ -17,7 +17,7 @@ export default function index() {
         }
     }, [])
     const imagesHandler = (counter) => {
-        setImage(`home${counter + 1}.jpg`);
+        setImage(`home${counter + 1}.jpeg`);
         setTimeout(() => {
             counter === 2 ? imagesHandler(0) : imagesHandler(counter + 1); 
         }, 5000);
