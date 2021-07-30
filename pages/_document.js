@@ -23,7 +23,6 @@ class MyDocument extends Document {
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
             <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap" rel="stylesheet"></link>
-            <meta name="google-site-verification" content="AIBZt4Lb1CaVznE0pYLIsQ0Yv4qd2R4SbtxPqn1HgT4" />
         </Head>
         <body>
           <Main />
