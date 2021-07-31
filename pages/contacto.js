@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import Link from 'next/link';
 
 export default function contacto() {
-    const message = 'Este es un mensaje de ejemplo!';
+    const message = 'Hola Matias! Vengo desde tu pagina web y estoy interesado en contactarte...';;
     return (
         <Layout>
             <section className="fill d-flex flex-column justify-content-center align-items-center">
