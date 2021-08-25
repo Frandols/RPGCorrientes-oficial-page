@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function contacto() {
     const message = 'Hola Matias! Vengo desde tu pagina web y estoy interesado en contactarte...';;
@@ -20,6 +21,9 @@ export default function contacto() {
                     </Link>
                 </button>
             </section>       
+            <Head>
+                <title>RPG Corrientes | Contacto</title>
+            </Head>
         </Layout>
     )
 }

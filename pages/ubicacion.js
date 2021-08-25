@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function ubicacion() {
     return (
@@ -24,6 +25,9 @@ export default function ubicacion() {
                     </Link>
                 </button>
             </section>       
+            <Head>
+                <title>RPG Corrientes | Ubicacion</title>
+            </Head>
         </Layout>
     )
 }

@@ -13,6 +13,7 @@ main{
     background-color: black;
     background-size: cover;
     background-position: center;
+    background-image: url("/home.jpeg");
 }
 section{
     padding: 50px;

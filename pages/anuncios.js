@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Cards from '../components/anuncios/Cards';
+import Head from 'next/head';
 
 export default function anuncios(){
     return(
@@ -8,7 +9,10 @@ export default function anuncios(){
             <section className="fill d-flex flex-column justify-content-center align-items-center">
                 <h2 className="fw-bold my-3 text-center">Anuncios</h2>
                 <Cards />
-            </section>       
+            </section>
+            <Head>
+                <title>RPG Corrientes | Anuncios</title>    
+            </Head>       
         </Layout>
     )
 }

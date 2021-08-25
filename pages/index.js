@@ -3,26 +3,19 @@ import ReactPlayer from 'react-player';
 import Layout from '../components/Layout';
 import ImageSlider from '../components/index/ImageSlider';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function index() {
     const [height, setHeight] = useState(0);
-    const [image, setImage] = useState('');
     useEffect(() => {
-        imagesHandler(0);
         setHeight(window.innerHeight);
         window.onresize = () => {
             setHeight(window.innerHeight);
         }
-    }, [])
-    const imagesHandler = (counter) => {
-        setImage(`home${counter + 1}.jpeg`);
-        setTimeout(() => {
-            counter === 2 ? imagesHandler(0) : imagesHandler(counter + 1); 
-        }, 10000);
-    }
+    }, []);
     return (
         <Layout isHomePage={true}>
-            <main className="d-flex justify-content-center align-items-center" style={{backgroundImage: `url(${image})`}}>
+            <main className="d-flex justify-content-center align-items-center">
                 <div className="center d-flex flex-column justify-content-center align-items-center">
                     <h1 className="fw-bold text-light display-1 text-center">RPG CORRIENTES</h1>
                     <h3 className="fw-bold text-center text-light">Matías Nicolás Erro y María Belén Koster</h3>
@@ -62,6 +55,9 @@ export default function index() {
                     </div>
                 </div>
             </section>
+            <Head>
+                <title>RPG Corrientes | Home</title>
+            </Head>
         </Layout>
     )
 }

@@ -10,7 +10,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-            <title>RPG Corrientes</title>
             <meta charSet="utf-8" />
             <link rel="icon" href="favicon.ico" sizes="32x32"/>
             <meta name="title" content="RPG Corrientes" />
