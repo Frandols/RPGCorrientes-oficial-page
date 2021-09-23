@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 export default function contacto() {
-    const message = 'Hola Matias! Vengo desde tu pagina web y estoy interesado en contactarte...';;
+    const message = 'Hola Matias! Vengo desde tu pagina web y estoy interesado en contactarte...'
     return (
         <Layout>
             <section className="fill d-flex flex-column justify-content-center align-items-center">
