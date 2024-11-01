@@ -38,7 +38,7 @@ class MyDocument extends Document {
 					/>
 					<meta
 						name='description'
-						content='Kinesiologia Corrientes, 9 de Julio 1813. Especialistas en columna y rehabilitacion traumatologica.'
+						content='Kinesiologia Corrientes, Carlos Pellegrini 1338 - Corrientes Capital. Especialistas en columna y rehabilitacion traumatologica.'
 					/>
 					<meta
 						name='author'
